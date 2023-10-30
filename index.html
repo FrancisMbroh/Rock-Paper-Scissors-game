@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPS</title>
+  <script src="rock.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600&family=Hanken+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&family=Raleway:wght@300;400;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <div class="wrapper">
+    <span class="rock" onclick="
+    pickDaddysMove()
+   nanasMove = playGame('rock')
+  ">&#9994</span>
+
+    <span class="paper" onclick="
+      pickDaddysMove()
+      nanasMove = playGame('paper')
+
+  ">&#9995</span>
+
+    <span class="scissors" onclick="
+    pickDaddysMove()
+    playGame('scissors')
+    ">&#9996</span>
+  </div>
+
+  <div class="p-container">
+    <p class="js-comment">Ready to Lose, love ? LOL &#128512;</p>
+    <p class="js-result"></p>
+    <p class="js-score"></p>
+  </div>
+
+  <button onclick="
+  score = {
+    wins: 0,
+    losses: 0,
+    ties: 0
+  };
+  removeScore();
+  ">Reset score</button>
+</body>
+
+</html>
