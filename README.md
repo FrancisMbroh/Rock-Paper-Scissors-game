@@ -27,4 +27,4 @@ Thank for checking out this project.
 
 ## Author
 
-- Gmail at ckid45119@gmail.com
+- Email me at ckid45119@gmail.com
