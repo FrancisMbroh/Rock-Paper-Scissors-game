@@ -31,4 +31,4 @@ Thank for checking out this project.
 
 ## Link
 
-- Live URL ![https://francismbroh.github.io/Rock-Paper-Scissors-game/](https://francismbroh.github.io/Rock-Paper-Scissors-game/)
+- Live URL [https://francismbroh.github.io/Rock-Paper-Scissors-game/](https://francismbroh.github.io/Rock-Paper-Scissors-game/)
