@@ -14,7 +14,7 @@ Thank for checking out this project.
 
 ## Screenshot
 
-![<rock paper scissors.jpg>](<rock paper scissors.jpg>)
+![<screenshot.jpg>](<screenshot.jpg>)
 
 ## Built With
 
